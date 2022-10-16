@@ -1,0 +1,118 @@
+/*Colors dans fonts*/
+
+
+ 
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+
+h1 {
+	font-family: 'Kanit', sans-serif;
+	color: #7D6E83;
+	font-weight: bold;
+	font-weight: 200;
+	font-size: 50px;
+}
+h2 {
+	font-family: 'Bebas Neue', cursive;
+	color: #FF99D7;
+	font-weight: lighter;
+	font-size: 32px;
+}
+
+
+a{
+	font-family: 'Kanit', sans-serif; ;
+	text-decoration: none;
+	color: #9E7676 ;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #D58BDD;
+}
+
+
+/*custom design with class*/
+
+
+.container {
+	width:  700px;
+	margin: 40px auto;
+}
+
+@media (max width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center ;
+
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px lightgrey ;
+}
+
+.btn-pink{
+	background-color: #D58BDD ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none ;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px ;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: black;
+}
+
+.list-inline i:hover{
+	color: grey;
+}
+
+/*design adjustments using id*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
